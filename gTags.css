@@ -1,0 +1,15 @@
+div{
+    padding: 20px;
+    margin: 20px;
+    border: 7px solid grey;
+}
+table{
+    border: 2px solid rgb(71, 69, 69);
+    border-collapse: collapse;
+}
+legend{
+    font-size: 20px;
+}
+form{
+    font-style: initial;
+}

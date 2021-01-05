@@ -1,0 +1,121 @@
+.header-flex{
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+.head-child{
+    padding-right: 39px;
+}
+.head-child1{
+    flex: 24%;
+    padding: 2px;
+    margin: 2px;
+    margin-right: 60px;
+}
+.head-child2{
+    flex: 30%;
+}
+.head-child2{
+    display: flex;
+}
+
+.searchtab{
+    border-radius: 7px;
+    width: 300px;
+    padding: 10px;
+    margin-left: 0px;
+}
+.ct{
+    border: none;
+    background: none;
+    color: white;
+}
+.login{
+    border: none;
+    background: none;
+    color: white;
+}
+.signin{
+    border: none;
+    background: none;
+    color: white;
+}
+.head-child4{
+    flex: 15%;
+}
+.headimg{
+    width: 60%;
+}
+.body-flex{
+    display: flex;
+    background: none;
+}
+.bd-child{
+    flex: 1;
+}
+.body-flex2{
+    background-image: url(bgimg3.jpg);
+}
+.bd-child2{
+    padding:50px;
+}
+.bd-child2{
+    text-align: center;
+}
+.btn-child2:hover{
+    background-color: blueviolet;
+    cursor: none;
+ }
+ .body-flex3{
+     display: flex;
+     position: relative;
+     bottom: 30px;
+ }
+ .uibtn{
+     margin-top:10px;
+ }
+ .uibtn:hover{
+     cursor: pointer;
+     color: orangered;
+ }
+
+ .bd-child1{
+    display: flex;
+    flex: 1;
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(218, 212, 212);
+ }
+ .hd{
+     flex: 1;
+ }
+ 
+ .body-flex4{
+    border: 1px solid black;
+    flex: 20%;
+    margin: 15px;
+    padding: 10px;
+
+ }
+.bd-child4{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: goldenrod;
+}    
+.icon4{
+    flex: 30%;
+}
+.body-gp4{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-wrap: wrap;
+}
+
+
+    
+ 
+    
+ 

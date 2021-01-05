@@ -1,0 +1,65 @@
+h3{
+    color: blue;
+    border: 2px solid blue;
+}
+h2{
+    color: yellow;
+    border: 2px solid yellow;
+}
+h1{
+    color: yellow;
+    border: 2px solid yellow;
+}
+.head-1{
+    font-size: 30px;
+    color: violet;
+    text-align: center;
+    border: 2px solid violet;
+}
+#head-1{
+    font-size: 50px;
+    color: red;
+    text-align: right;
+    border: 2px dashed red;
+}
+
+ul > li{
+    list-style-type: square;
+}
+ul > li ol{
+    list-style: none;
+}
+/* selector[attribute="value"] */
+li[class="list"]{
+    color: red;
+}
+h1 ~ p{
+    color: orangered;
+}
+ul.items~p{
+    color: yellow;
+    font-size: 20px;
+}
+
+h1 + p{
+    color: blue;
+}
+ul.items + p{
+    color: blue ;
+}
+
+/* h1 , h2 , h3 , h4 , p , li ,ul.items + p , #head-1{
+    color: purple;
+    font-size: 50px;
+} */
+
+h1 em{
+    color: red;
+}
+ul.descendent li{
+    list-style: none;
+    padding: 20px;
+}
+ul.descendent li{
+    display: inline;
+}

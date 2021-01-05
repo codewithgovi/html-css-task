@@ -1,0 +1,494 @@
+.hd-gparent{
+    display: flex;
+    background-color: rgb(56, 54, 54);
+    color: white;
+    align-items: center;
+}
+.hd-parent1{
+    padding-left: 20px;
+    flex: 20%;
+} 
+.hd-parent2{
+    flex: 40%;
+    padding-left: 20px;
+}
+.textbox{
+    width: 80%;
+    height: 30px;
+    border-radius: 7px;
+}
+.textbox:active{
+    border: none;
+}
+.hd-parent3{
+    flex: 25%;
+    display: grid;
+    grid: auto/auto auto auto;
+}
+.hd-ct:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.hd-Pp:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.hd-B:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.hd-parent4{
+    flex: 15%;
+    display: grid;
+    grid: auto/auto auto;
+}
+.logbtn{
+    padding: 8px;
+    padding-left: 20px;
+    color: white;
+    background-color: rgb(56, 54, 54);
+    border-radius: 8px;
+    border: none;
+}
+.logbtn:hover{
+    cursor: pointer;
+    background-color: orangered;
+    padding: 10px;
+}
+.signbtn{
+    padding: 8px;
+    padding-right: 35px;
+    color: white;
+    border: none;
+    background-color: rgb(56, 54, 54);
+    border-radius: 8px;
+}
+.signbtn:hover{
+    cursor: pointer;
+    background-color: orangered;
+    padding: 10px;
+}
+.bdy-parent{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.bdy-child{
+    flex: 1;
+}
+.bdy-child:hover{
+    cursor: pointer;
+    color: orangered;
+}
+.bdy-gparent{
+    
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url(bgimg3.jpg);
+}
+.bdy-main1{
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.explbtn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+}
+.explbtn:hover{
+    background-color: rgb(233, 201, 190);
+    cursor: pointer;
+    color: rgb(44, 42, 42);
+}
+.bdy-main2{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.bdy-ui ,.bdy-fs ,.bdy-wd{
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    flex: 25%;
+    margin: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    justify-content: space-around;
+    border: 1px solid rgb(201, 197, 197);
+    font-size: 15px;
+}
+.uibtn, .fsbtn, .wdbtn{
+    border: none;
+    color: blue;
+}
+.uibtn:hover{
+    cursor: pointer;
+    color: orangered;
+}
+.fsbtn:hover{
+    cursor: pointer;
+    color: orangered;
+}
+.wdbtn:hover{
+    cursor: pointer;
+    color: orangered;
+}
+.trend{
+    margin-top: 0%;
+}
+.bdy-gp3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+.bdy-main3{
+    flex: 20%;
+    border: 1px solid rgb(201, 197, 197);
+    margin: 15px;
+}
+
+
+.bdy-main5{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.bdy-child5{
+    flex: 1;
+    padding: 17px;
+    border: 1px solid rgb(201, 197, 197);
+    margin: 26px;
+}
+.bdy-gp6{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 58px;
+    margin-left: 62px;
+    align-items: center;
+}
+.bdy-main6{
+    flex: 1;
+    margin-right: 2.5%;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(201, 197, 197);
+}
+.bdy-child6a{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: goldenrod;
+}
+.gicon{
+    flex: 1;
+    margin-left: 20px;
+}
+.govi{
+    flex: 1;
+    margin-right: 20px;
+}
+.fspara{
+    text-align: left;
+    margin-top: 0px;
+}
+.fsc, .staricon, .fspara{
+    padding-left: 13px;
+}
+.rbtn{
+    text-align: right;
+}
+.readbtn{
+    border: none;
+    color: blue;
+    font: bold;
+}
+.readbtn:hover{
+    cursor: pointer;
+    background-color: rgb(201, 197, 197);
+    color: black;
+}
+.bdy-main7{
+    background-color: rgb(2, 133, 240);
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+}
+.cntbtn{
+    border-radius: 5px;
+    color: blue;
+    background-color: white;
+    border: none;
+}
+.cntbtn:hover{
+    background-color: orangered;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    cursor: pointer;
+}
+.bdy-gp8{
+    display: flex;
+}
+.bdy-main8{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 0%;
+    /* position: relative;
+    bottom: 20px; */
+}
+.bdy-child8{
+    flex: 1;
+    margin: 10px;
+    border: 1px solid rgb(201, 197, 197);
+    align-items: center;
+}
+.btnlr8, .btnrr8{
+    margin-top: 94px;
+    border: none;
+}
+.showbtn{
+    border: 1px solid orangered;
+    color: orangered;
+    padding: 10px;
+}
+.showbtn:hover{
+    border: 2px solid orangered;
+    cursor: pointer;
+}
+.bdy-main9{
+    display: flex;
+}
+.bdy-child9{
+    flex: 1;
+    text-align: center;
+}
+.bdy-main10{
+    background-image: url(bgimg5.jpg);opacity: 1;
+    margin-top: 30px;
+}
+.bdy-child10{
+    padding-top: 20px;
+    padding-bottom: 20%;
+    color: white;
+}
+.bdy-main11{
+    display: flex;
+    margin-left: 9%;
+    margin-right: 9%;
+    /* position: relative;
+    bottom: 250px; */
+}
+.bdy-child11{
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    opacity: 0.7;
+    background-color: whitesmoke;
+}
+.bdy-main12{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 8%;
+    /* position: relative;
+    bottom: 150px; */
+}
+.bdy-child12{
+    margin: 10px;
+    align-items: center;
+}
+.img12{
+    height: 100px;
+    width: 200px;
+    border: 2px solid rgb(201, 197, 197);
+    background-color: none;
+    padding: 10px 20px 10px 20px;
+}
+
+.bdy-img13{
+    margin-left: 10%;
+    /* position: relative;
+    bottom: 140px; */
+}
+.bdy-gp14{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 11%;
+    /* position: relative;
+    bottom: 150px; */
+
+}
+.bdy-main14{
+    display: flex;
+    background-image: url(bgimg2.jpg); width: 90%;
+    color: white;
+    margin: 20px;
+}
+.bdy-child14{
+    flex: 1;
+    margin-left: 10px;
+}
+.bdy-child14a{
+    margin-top: 60px;
+    margin-right: 5px;
+}
+.btn14{
+    border: none;
+    background: none;
+    color: white;
+}
+.btn14:hover{
+    cursor: pointer;
+    background: rgb(180, 175, 175);
+    opacity: 0.9;
+    color: white;
+    border: none;
+
+}
+.bdy-main15{
+    background-image: url(workimg.jpeg); opacity: 0.9;
+    color: black;
+    /* position: relative;
+    bottom: 240px; */
+}
+.bdy-child15{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left : 90px;
+    color: black;
+}
+
+.btn15{
+    background: white;
+    padding: 7px;
+    color: rgb(15, 15, 110);
+}
+.btn15:hover{
+    background: orangered;
+    color: white;
+    cursor: pointer;
+}
+.bdy-main16{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 6%;
+    /* position: relative;
+    bottom: 220px; */
+}
+.img16{
+    width: 90px;
+}
+
+
+.bdy-main17{
+    background-image: url(Starry-Sky-Mountains-Stars-img.jpg); opacity: 0.9;
+    /* position: relative;
+    bottom: 570px; */
+}
+.bdy-child17{
+    padding-top: 30px;
+    padding-right: 16%;
+    padding-left: 15%;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    
+}
+.bdy-child17a{
+    grid-template-columns: 1fr 1fr;
+    padding-left: 50px;
+    padding-right: 60px;
+    background:rgb(88, 85, 85) ;
+    color:white;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    opacity: 0.8;
+}
+.bdysub17{
+    display: flex;
+    align-items: center;
+}
+.bdya17{
+    flex: 42%;
+    align-items: center;
+
+}
+.bdya17btn{
+    flex: 15%;
+    padding-right: 10px;
+    padding-top: 50px;
+}
+.textbox17{
+    width: 90%;
+    padding: 10px;
+}
+.btn17{
+    padding: 10px;
+    background: orangered;
+    color: white;
+    border: none;
+}
+.btn17:hover{
+    cursor: pointer;
+    background: rgb(128, 125, 125);
+    
+}
+.footer-flex{
+    display: flex;
+    background-color: black;
+    /* position: relative;
+    bottom: 570px; */
+}
+.footerchild{
+    flex: 1;
+    padding: 20px;
+    color: blanchedalmond;
+}
+.footer-flex2{
+    display: flex;
+    padding: 20px;
+    background-color: rgb(61, 56, 56);
+    /* position: relative;
+    bottom: 590px; */
+}
+.footer-child2{
+    flex: 1;
+    color: white;
+}
+.footer-child2a{
+    padding-right: 30px;
+    padding-left: 30px;
+    color: white;
+}
+.footer-flex3{
+    display: flex;
+    padding: 20px;
+    background-color: black;
+    /* position: relative;
+    bottom: 600px; */
+}
+.footer-child3{
+    flex: 1;
+    color: white;
+}
+
+

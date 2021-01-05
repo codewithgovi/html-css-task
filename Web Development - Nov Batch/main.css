@@ -1,0 +1,90 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Texturina:wght@900&display=swap'); */
+
+@font-face {
+    src: url("Texturina-BlackItalic-opsz=12.ttf");
+    font-family: 'my-style-1';
+}
+
+.parent-flex,
+.gridparent {
+    border: 2px solid orangered;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.parent-flex {
+    display: flex;
+}
+
+.child-flex,
+.childgrid {
+    border: 2px solid blue;
+    padding: 12px;
+    /* flex: 1; */
+    /* margin: 15px; */
+}
+
+.main-flex {
+    flex: 4;
+}
+
+div.logo {
+    padding: 0;
+}
+
+div.logo img {
+    height: 50px;
+}
+
+.gridparent {
+    display: grid;
+    /*    grid:auto/auto auto auto auto auto auto;*/
+    grid-gap: 20px;
+    grid-template-columns: 100px 200px 300px;
+    grid-template-rows: 400px 300px 200px
+}
+
+
+/*
+.childgrid{
+    flex: 1
+}*/
+
+.styles-float {
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.parent-float div {
+    display: inline-block;
+    background: orange
+}
+
+.parent-float::after {
+    content: '';
+    clear: both;
+    display: table
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.f-utilities {
+    font-family: 'my-style-1';
+    color: orangered !important;
+}
+
+.f-utilities {
+    font-family: 'my-style-1';
+    color: blue !important;
+    height: 150px;
+    border: 1px solid red;
+    width: 500px;
+}

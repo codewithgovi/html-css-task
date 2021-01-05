@@ -1,0 +1,80 @@
+.header-flex{
+    display: flex;
+    padding: 20px;
+    background-color: rgb(92, 8, 8); opacity: 0.8;
+    align-items: center;
+}
+.header-child{
+    flex: 1;
+    text-align: center;
+    color: mintcream;
+    opacity: 0.7;
+}
+
+.body-flex{
+    display: flex;
+    background-image: url(flowers-hd-wallpaper-free-download-102.jpg); opacity: 0.9;
+;
+}
+.body-child{
+    text-align: center;
+    font-style: italic;
+    color: maroon;
+}
+.b-discount{
+    background-color: rgb(114, 114, 230);
+    text-align: center;
+    margin: 40px;
+}
+.b-child{
+    display: flex;
+}
+.b-child1{
+    flex: 1;
+}
+.b-childangular{
+    margin-bottom: 10px;
+}
+.b-childui{
+    margin-bottom: 10px;
+}
+
+.body-flex2{
+    display: flex;
+    text-align: center;
+}
+.body-child2{
+    flex: 1;
+}
+.p1{
+    text-align: center;
+    font-size: 30px;
+    font-style: ;
+}
+.body-flex3{
+    display: flex;
+}
+.body-child3{
+    flex: 1;
+    margin-top: 0px;
+    margin-right: 54px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    text-align: center;
+}
+.image3{
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+.h1{
+    text-align: center;
+}
+.body-flex4{
+    margin-left: 60px;
+    margin-right: 60px;
+    display: grid;
+    gap: 10px;
+    grid: 105px/ auto auto auto;
+    grid-column: 2/3;
+}

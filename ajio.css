@@ -1,0 +1,10 @@
+.head-par{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.body-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr;
+}

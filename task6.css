@@ -1,0 +1,283 @@
+.hd-flex{
+    display: flex;
+    background-color: rgb(71, 68, 68);
+    border: 1px solid red;
+    align-items: center;
+}
+.hd-child1{
+    width: 142px;
+
+}
+.hd-child2{
+    /* flex: 7%; */
+    border: 1px solid red; 
+    padding: 17px; 
+    background-color: rgba(36, 30, 30, 0.582); 
+    color: wheat; 
+}
+.hd-c4{
+    border: 1px solid wheat;
+    padding: 10px;
+    position: relative;
+    left: 877px;
+    color: thistle;
+}
+.hd-c4:hover{
+    background-color: green;
+}
+#ticon{
+    font-size: 2em;
+}
+
+.bdy-flex1{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    padding: 15px;
+}
+.applybtn{
+    background: orangered;
+    border: none;
+    padding: 12px;
+    color: white;
+}
+.applybtn:hover{
+    cursor: pointer;
+    background: rgb(128, 118, 118);
+}
+.bdy-child4{
+    margin-left: 45px;
+}
+.bdy-child{
+    flex: 20%;
+}
+.bdy-flex2{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: rgb(63, 62, 62);
+    color: white;
+    padding: 14px;
+    margin-bottom: 0px;
+}
+.flex2-par1{
+    flex: 60%;
+    display: flex;
+}
+.flex2-child{
+    flex: 1;
+}
+.bdy-flex3{
+    color: white;
+    background-image: url(bgimg3.jpg); 
+}
+.flex3-par{
+    padding-top: 30px;
+}
+
+.conbtn{
+    background: orangered;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    color: white;
+}
+.conbtn:hover{
+    cursor: pointer;
+    background: gray;
+
+}
+.par2-child{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.flex3-par2{
+    display: flex;
+}
+.bdy-flex4{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    
+}
+
+.bdy4-cld{
+    padding-bottom: 30px;
+}
+#icon4{
+    background: orangered;
+    border-radius: 35px;
+}
+.bdy4-cld2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-right: 10px;
+}
+#img42
+{
+    height: 100%;
+}
+
+
+.bdy-flex5{
+    color: white;
+    background-image: url(bgimg5.jpg);
+}
+.bdy5-par1{
+    display: flex;
+    padding-right: 50px;
+    padding-left: 100px;
+    padding-top: 7%;
+}
+.bdy5-child1{
+    flex: 1;
+    margin-right: 10%;
+}
+.bdy5-par2{
+    display: flex;
+    padding-right: 50px;
+    padding-left: 100px;
+}
+.par2-child1{
+    flex: 25%;
+    text-align: center;
+}
+.bdy6-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+#img6{
+    width: 306px;
+}
+.appbtn{
+    padding: 12px;
+    background: orangered;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+.appbtn:hover{
+    cursor: pointer;
+    background: gray;
+}
+.bdy6-par1{
+    flex: 25%;
+}
+.bdy7-flex{
+    display: flex;
+}
+#img7{
+    width: 306px;
+}
+.bdy7-par1{
+    flex: 25%;
+}
+.bdy8-flex{
+    background-image: url(orbg1.jpg);
+    color: white;
+}
+.bdy8-par{
+    padding-left: 60%;
+    padding-top: 10%;
+    padding-right: 15%;
+    padding-bottom: 10%;
+}
+.bdy9-flex{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#img9{
+    width: 306px;
+}
+.bdy9-par{
+    flex: 20%;
+}
+.bdy10-flex{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.img10{
+    width: 30%;
+    margin-left: 60px;
+    border-radius: 50px;
+}
+.bdy10-par{
+    flex: 1;
+}
+
+.bdy11-flex{
+    display: flex;
+}
+.bdy11-par{
+    flex: 1;
+}
+.footer-flex{
+    display: flex;
+    color: white;
+    background-color: rgb(63, 59, 59);
+    
+}
+.foottext{
+    border: 1px solid gray;
+    padding: 12px;
+    margin: 4px;
+}
+.subs{
+    padding-right: 125px;
+    margin: 4px;
+    background: rgb(123, 106, 216);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+.subs:hover{
+    cursor: pointer;
+    background: gray;
+}
+.footerchild{
+    flex: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}   
+.footer-flex2{
+    background-color: rgb(63, 59, 59);
+    color: white;
+    padding: 15px;
+    position: sticky;
+    bottom: 0px;
+}
+#faceicon{
+    padding: 10px;
+    background: gray;
+    border-radius: 10px;
+    margin: 10px;
+}
+#faceicon:hover{
+    cursor: pointer;
+    background: orangered;
+}
+    
+#facebicon{
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    background: gray;
+    border-radius: 10px;
+}
+#facebicon:hover{
+    cursor: pointer;
+    background: orangered;
+}
+

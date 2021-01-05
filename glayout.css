@@ -1,0 +1,140 @@
+.grandparent-flex{
+    border: 2px solid red;
+    padding: 40px;
+    background-color: black;
+
+}
+
+#parent-flex1{
+    border: 3px solid white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    background-color: rgb(71, 67, 67);
+    height: fit-content;
+}
+
+.child-flex{
+    padding: 8px;
+    border: 2px solid rgb(180, 179, 178);
+    display: inline;
+    margin: 25px;
+    align-items: center;
+}
+.parent-flex2{
+    display: block;
+    border: 1.5px solid rgb(130, 137, 160);
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+    padding: 20px;
+    background-color: rgb(238, 236, 234);
+    font-style: italic;
+    
+}
+
+.grandparent-flex2{
+    border: 2px solid silver;
+    padding: 40px;
+    background-color: grey;
+    margin: 10px 40px 20px 40px;
+}
+
+
+
+div .Logo{
+    padding: 40px;
+    border: none;
+}
+
+h1{
+    margin: 50px;
+    font-style: italic;
+}
+
+hr{
+    margin: 5px;
+}
+
+.image2{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+h2{
+    margin-left: 30px;
+}
+.p1{
+    margin-left: 30px;
+}
+.p2{
+    margin: 40px;
+    text-align: justify;
+}
+.p3{
+    margin-left: 40px;
+}
+.ul1{
+    margin-left: 40px;
+}
+.parent-flex4{
+    position: relative;
+    left: 950px;
+    top: -60px;
+}
+.child-flex1 img{
+    height: 84px;
+    width: 90px;
+}
+
+.Fullstack-flex{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.UI-flex{
+    padding: 20px;
+}
+
+.html{
+    display: flex;
+}
+.htmlimage{
+    height: 100px;
+}
+.css{
+    height: 100;
+    flex: none;
+    justify-content: space-evenly;
+}
+.cssimage{
+    width: 400px;
+}
+
+.Backend-flex{
+    flex: 1;
+}
+.footer{
+    background-color: gray;
+    border: solid black;
+    display: flex;
+}
+.footer-flex{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    flex: 1;
+}
+.footerSchild{
+    display: flex;
+}
+
+
+
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSITIONS</title>
+
+    <style>
+        .parent {
+            margin: 50px;
+            border: 1px solid red;
+            padding: 15px;
+            display: flex;
+            flex: 1;
+        }
+        
+        .child {
+            border: 1px solid blue;
+            padding: 10px;
+            margin: 15px;
+            height: 150px;
+            width: 150px;
+            text-align: center;
+            /* flex: 1 */
+        }
+        
+        .relative {
+            /* position: relative; */
+            left: 115px;
+            bottom: 35px;
+            background: yellow;
+        }
+        
+        .absolute {
+            /* left: 115px;
+            bottom: 35px; */
+            background: red;
+            position: absolute;
+        }
+        
+        .fixed {
+            position: fixed;
+            top: 0;
+            background: pink;
+            /* left: 50%;
+            bottom: 50%; */
+        }
+        
+        .sticky {
+            position: sticky;
+            background: black;
+            top: 0;
+            position: -webkit-sticky;
+        }
+    </style>
+</head>
+
+<body>
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <div class="parent">
+        <div class="child relative">
+            <h3> RELATIVE</h3>
+        </div>
+        <div class="child absolute">
+            <h3>ABSOLUTE</h3>
+        </div>
+        <div class="child fixed">
+            <h3>FIXED</h3>
+        </div>
+
+
+    </div>
+    <div class="child sticky">
+        <h3>STICKY</h3>
+    </div>
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+
+</body>
+
+</html>

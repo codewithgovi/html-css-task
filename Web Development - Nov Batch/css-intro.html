@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS INTRODUCTION</title>
+    <style>
+        .bg {
+            height: 300px;
+            border: 1px dashed red;
+            background: red;
+            border-top-left-radius: 150px;
+            border-bottom-right-radius: 150px;
+            color: #fff;
+            cursor: alias;
+            text-align: center;
+            padding: 50px
+            /*            display: none*/
+            /*
+            background-image: url(AIT1.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            overflow: auto;
+            background-attachment: fixed;
+            background-position: center
+*/
+        }
+        /* .bg::before{
+            content: '';
+              height: 300px;
+            background: black;
+           opacity: 0.1;
+            width: 100%;
+            position: absolute
+        } */
+        
+        .btn {
+            padding: 10px 30px;
+            background: orangered;
+            border: none;
+            color: #fff;
+            outline: none
+        }
+        
+        .btn:hover {
+            background: skyblue
+        }
+        
+        .btn:active {
+            background: black
+        }
+        
+        ul li:nth-child(4) {
+            font-size: 50px;
+            color: yellow
+        }
+        
+        p::first-line {
+            color: blue;
+            font-size: 50px
+        }
+        
+        li::after {
+            content: '';
+            color: yellow;
+            height: 2px;
+            width: 50%;
+            border: 1px solid yellow
+        }
+        
+        li::before {
+            content: '';
+            color: darkblue
+        }
+    </style>
+</head>
+
+<body>
+    <!--    1)Background : Background-color , background-image , background-repeat , background-                        attachment , background-position , background-size
+-->
+    <div class="bg">
+        <p>
+            Background-color , background-image , background-repeat , background- attachment , background-position , background-size Background-color , background-image , background-repeat , background- attachment , background-position , background-size Background-color
+            , background-image , background-repeat , background- attachment , background-position , background-size Background-color , background-image , background-repeat , background- attachment , background-position , background-size Background-color
+            , background-image , background-repeat , background- attachment , background-position , background-size Background-color , background-image , background-repeat , background- attachment , background-position , background-size
+        </p>
+        <button class="btn">STYLE IT</button>
+        <ul>
+            <li>ITEM</li>
+            <li>ITEM</li>
+            <li>ITEM</li>
+            <li>ITEM</li>
+            <li>ITEM</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

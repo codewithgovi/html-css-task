@@ -1,0 +1,184 @@
+.head-parent{
+    display: flex;
+    background-color: maroon;
+    border: 2px solid black;
+
+}
+.head-child{
+    margin: 20px;
+    padding: 8px;
+    flex: 1;
+    background-color: rgba(87, 24, 24, 0.856);
+    border: 2px solid gold;
+    text-align: center;
+    color: white;
+    
+}
+.body-flex{
+    display: flex;
+    background-image: url(flowers-hd-wallpaper-free-download-102.jpg); opacity: 0.9;
+    text-align: center;
+}
+.body-childone{
+    opacity: none;
+    margin: 5px;
+    padding: 20px;
+    flex: 1;
+}
+.body-childtwo{
+    padding-top: 85px;
+    padding-right: 15px;
+}
+.b-child{
+    display: flex;
+    
+}
+.b-childui, .b-childwd, .b-childangular, .b-childreact{
+    margin: 20px;
+    cursor: pointer;
+    background-color: skyblue;
+}
+.b-childui:hover, .b-childwd:hover, .b-childangular:hover, .b-childreact:hover{
+    background-color: orangered;
+    color: white;
+}
+    
+.b-discount{
+    padding-right: 51px;
+    padding-left: 60px;
+    background-color: cornflowerblue;
+}
+.p1{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+.body-flex2{
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+}
+.body-child2{
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+}
+.body-flex3{
+    display: flex;
+}
+.body-child3{
+    flex: 1;
+    margin-top: 0px;
+    margin-right: 54px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    text-align: center;
+}
+.image3{
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+.h1{
+    text-align: center;
+}
+.buttonvm:hover{
+    background-color: orangered;
+    color: white;
+}
+.buttonvm{
+    margin: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: cornsilk;
+}
+.body-flex4{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    margin-left: 70px;
+}
+.body-child4{
+    flex: 1;
+    margin: 20px;
+}
+.body-flex5{
+    display: flex;
+    background-image: url(16.jpg); opacity: 0.9;
+    margin: 10px;
+    padding: 30px;
+}
+.body-child5{
+    margin: 10px;
+    padding: 30px;
+    flex: 1;
+    color: cornsilk;
+}
+.body-flex6{
+    display: flex;
+    margin: 10px;
+    border: none;
+    padding: 30px;
+}
+.body-child6{
+    margin: 10px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    flex: 1;
+}
+.body-child6:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+.ratedimg{
+    text-align: center;
+}
+.formsec{
+    background-image: url(ws_Green_Petal_1680x1050.jpg);
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.formbutton{
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.formbutton:hover{
+    background-color: orangered;  
+    color: white;
+}
+.footer-flex{
+    display: flex;
+    background-color: black;
+}
+.footerchild{
+    flex: 1;
+    padding: 20px;
+    color: blanchedalmond;
+}
+.footer-flex2{
+    display: flex;
+    padding: 20px;
+    background-color: rgb(61, 56, 56);
+}
+.footer-child2{
+    flex: 1;
+    color: white;
+}
+.footer-child2a{
+    padding-right: 30px;
+    padding-left: 30px;
+    color: white;
+}
+.footer-flex3{
+    display: flex;
+    padding: 20px;
+    background-color: black;
+}
+.footer-child3{
+    flex: 1;
+    color: white;
+}

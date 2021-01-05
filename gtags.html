@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gTags.css" type="text/css">
+    <title>Tags</title>
+</head>
+<body>
+    <div>
+        <h1>Text Tags</h1>
+        <hr>
+        <p>This is a paragraph</p>
+        <p><em>This is a paragraph</em></p>
+        <h1>This is heading 1</h1>
+        <h2>This is heading 2</h2>
+        <h3>This is heading 3</h3>
+        <h4>This is heading 4</h4>
+        <h5>This is heading 5</h5>
+        <h6>This is heading 6</h6>
+        <strong>By Using "Strong tag" we can bold our Text</strong><br><br>
+        <em>By Using "em tag" we can change out font style into italic</em><br><br>
+        <abbr title="User Interface Development" >UI Development</abbr><br>
+    </div>
+
+    <div>
+        <h1>Link Tags</h1>
+        <a href="https://www.geeksforgeeks.org/" target="_blank">geeksforgeeks</a>
+    </div>
+
+    <div>
+        <h1>Image & Object Tags</h1>
+        <hr>
+        <img src="../Achivers IT/gfg_complete_logo_2x-min.png" alt="Geeks for Geeks Logo">
+    </div>
+
+    <div>
+        <h1>List Tags</h1><hr>
+        <h3>Best Laptops for Programming</h3> 
+        <ul>
+            <li>MacBook Pro</li>
+            <li>Dell</li>
+            <li>Lenovo Elite book</li>
+            <li>Hp</li>
+        </ul>
+        <h3>Ordered List</h3>
+        <ol>
+            <li>January</li>
+            <li>Febrauary</li>
+            <li>March</li>
+            <li>April</li>
+        </ol>
+        <h3>Descriptive List</h3>
+        <d1>
+            <dt>Apple</dt>
+            <dt>Samsung</dt>
+            <dt>Sony</dt>
+            <dd>Apple - American Mobile brand</dd>
+            <dd>Samsung - Korean Mobile brand</dd>
+            <dd>Sony - Japan Mobile brand</dd>
+        </d1>
+    </div>
+
+    <div>
+        <h1>Table Tags</h1>
+        <hr>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Name</th>
+                    <th>Mobile No</th>
+                    <th>Email</th>
+                    <th>Qualification</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Govi</td>
+                    <td>99999999999</td>
+                    <td>govi@abc.com</td>
+                    <td>MBA</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Susheel</td>
+                    <td>9999889999</td>
+                    <td>susheel@abc.com</td>
+                    <td>MBA</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Raghu</td>
+                    <td>9999779999</td>
+                    <td>raghu@abc.com</td>
+                    <td>B.tech</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Dhruva</td>
+                    <td>9999669999</td>
+                    <td>dhruva@abc.com</td>
+                    <td>MBA</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5" align="center" >List of Students</td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </div>
+
+    <div>
+        <h1>Form Tags</h1>
+        <hr>
+        <br>
+        <form name="Advertising Estimate Form">
+            <fieldset>
+                <legend><strong>Advertising Estimate Form:</strong></legend><br>
+                <label for="fname">First Name</label><br>
+                <input type="text" name="fname" placeholder="Enter First Name" required><br><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text" name="lname" placeholder="Enter Last Name" required><br><br>
+                <label for="cname">Company Name</label><br>
+                <input type="text" name="cname" placeholder="Enter Company Name" required><br><br>
+                <label for="phonenumber">Call us:</label>
+                <input type="tel" id="phonenumber" name="phonenumber" pattern="[0-9]{10}" maxlength="10"><br><br>
+                <label for="AdStartDate">Ad StartDate</label><br>
+                <input type="date" name="AdStartDate" required><br><br>
+                <label for="AdEndtDate">Ad EndDate</label><br>
+                <input type="date" name="AdEndtDate" required><br><br>
+                <label for="companytype">Choose the Company type:</label>
+                <select id="companytype">
+                    <option value="staffing">Staffing</option>
+                    <option value="consulting">Consulting</option>
+                    <option value="construction">Construction</option>
+                    <option value="software">Software</option>
+                </select><br><br>
+                <label for="Adsizepixels">Advertising Size (pixels)</label><br>
+                <input type="radio" name="Adsizepixels" value="option 1" required>Option 1 (high)<br>
+                <input type="radio" name="Adsizepixels" value="option 2" required>Option 2 (Medium)<br>
+                <input type="radio" name="Adsizepixels" value="option 3" required>Option 3 (Low)<br><br>
+                <label for="choosepixelrange">Select the pixel Range</label>
+                <input type="range" id="vol" name="vol" min="0" max="50"><br><br>
+                <label for="chooseaddcolor">Choose Colour for Advertising</label>
+                <input type="color"><br><br>
+                <label for="choosesites">Which sites would like to advertise on?</label><br>
+                <input type="checkbox" name="choosesites">Google AdWords<br>
+                <input type="checkbox" name="choosesites">Facebook<br>
+                <input type="checkbox" name="choosesites">Linked In<br>
+                <input type="checkbox" name="choosesites">Instagram<br>
+                <input type="checkbox" name="choosesites">Twitter<br><br>
+                <label for="gsearch">Visit us in google</label>
+                <input type="search" id="gsearch" name="gsearch">
+                <input type="submit"><br><br>
+                <label for="websiteAd">Website to be advertised</label>
+                <input type="text" name="websiteAd" placeholder="Mention wensite name to advertise" required><br><br>
+                <label for="rateuspoints">Rate us on points:</label>
+                <input type="number" id="points" name="points" step="2"><br><br>
+                <label for="comments">Comments</label><br>
+                <textarea></textarea><br><br>
+                <label for="choosefile">Select a file:</label>
+                <input type="file" id="myfile" name="myfile"><br><br>
+                <input type="submit" value="Submit" onclick="alert('This Form is Submitted')">
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </div>
+
+
+
+
+</body>
+</html>

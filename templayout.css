@@ -1,0 +1,60 @@
+.header-flex{
+    display: flex;
+    border: 2px solid gold;
+    background-color: gray;
+    margin: 30px;
+    padding: 20px;
+   
+}
+.headchild{
+    flex: 1;
+
+}
+.logo{
+    text-align: center;
+}
+.body-flex{
+    background-color: rgb(80, 76, 76);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.bodychild{
+    background-color: grey; 
+    text-align: center;
+}
+.bodychild2{
+    padding: 20px;
+    background-color: honeydew;
+    text-align: center;
+}
+.bodyh1{
+    text-align: center;
+}
+.body-flex3{
+    display: flex;
+}
+.bodychild3{
+    flex: 10;
+    width: 25%;
+    height: 210px;
+}
+
+.button{
+    text-align: center;
+    padding: 30px;
+}
+.body-flex4{
+    display: flex;
+}
+.bodychild4a{
+    width: 85%;
+}
+.bodychild4b{
+    flex: 2;
+}
+.footer{
+    background-color: peachpuff;
+    border: solid firebrick;
+    text-align: center;
+    padding: 40px;
+}

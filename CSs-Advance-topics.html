@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVANCED TOPICS</title>
+
+    <style>
+        .parent-1,
+        .parent-2 {
+            margin: 10px;
+            border: 1px solid red;
+            padding: 15px;
+            height: 500px;
+        }
+        
+        .child-1,
+        .child-2 {
+            margin: 10px;
+            border: 1px solid red;
+            padding: 15px;
+            background: red;
+            width: 200px;
+            height: 200px;
+            /* transition: 5s; */
+            /* transition-duration: 5s;
+            transition-delay: 2s;
+            transition-property: width;
+            transition-timing-function: ease-in-out; */
+            transition: 2s ease-in-out;
+        }
+        
+        .child-1:hover {
+            transform: rotate(45deg);
+            /* transform: skew(45deg); */
+            /* transform: scale(1.2); */
+            /* width: 250px;
+            height: 250px; */
+        }
+        
+        .child-2 {
+            animation: first-ani 5s ease-in-out 2s infinite alternate;
+            position: relative;
+            /* animation-name: first-ani;
+            animation-duration: 5s;
+            animation-iteration-count: 5;
+            animation-timing-function: ease-in-out;
+            animation-delay: ease-in-out;
+            animation-direction: alternate;
+             */
+        }
+        
+        @keyframes first-ani {
+            0% {
+                background-color: red;
+                left: 0px;
+                top: 0px;
+            }
+            25% {
+                background-color: yellow;
+                left: 200px;
+                top: 0px;
+            }
+            50% {
+                background-color: orange;
+                left: 200px;
+                top: 200px;
+            }
+            75% {
+                background-color: blue;
+                left: 0px;
+                top: 200px;
+            }
+            100% {
+                background-color: grey;
+                left: 0px;
+                top: 0px;
+            }
+            /* from {
+                background-color: red;
+            }
+            to {
+                background-color: grey;
+            } */
+        }
+        
+        @media only screen and (max-width:724px) {
+            /* this media query is for all the devices whose with is less than 724px(MOBILES) */
+            .child-1,
+            .child-2 {
+                margin: 5px;
+                border: 2px solid blue;
+                padding: 15px;
+                background: yellow;
+                width: 100px;
+                height: 100px;
+                transition: 2s ease-in-out;
+            }
+        }
+        
+        @media only screen and (min-width:724px) and (max-width:1024px) {
+            /* this media query is for all the devices whose with is in-between 724px and 1024px(Tbalets and IPADS) */
+        }
+        
+        @media only screen and (min-width:724px) {
+            /* this media query is for all the devices whose minimum width is 724px(Laptops) */
+        }
+    </style>
+</head>
+<!-- 1) Transition:
+            Transition-delay
+            Transition-duration
+            transition-property
+            transition-timing-function
+    
+    2) Transform:
+            skew , scale , rotate 
+
+    3) Animations:
+            animation-name
+            animation-delay
+            animation-iteration-count
+            animation-direction
+            animation-timimg-function
+-->
+
+<body>
+    <div class="parent-1">
+        <div class="child-1">
+            <h1>Transitions</h1>
+        </div>
+
+    </div>
+    <div class="parent-2">
+        <div class="child-2">
+            <h1>Animations</h1>
+        </div>
+
+    </div>
+</body>
+
+</html>

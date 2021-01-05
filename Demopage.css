@@ -1,0 +1,48 @@
+h3{
+    color: blue;
+    border: 3.5px solid violet;
+}
+
+h2{
+    color: orange;
+    border: 2px solid green;
+}
+h1{
+    color: orangered;
+    border: 2.5px solid blueviolet;
+}
+.align{
+    font-size: 30px;
+    color: chocolate;
+    text-align: center;
+    border: 3px solid crimson;
+}
+#align{
+    font-size: 40px;
+    color: darkgoldenrod;
+    text-align: left;
+    border: 4px solid darkmagenta;
+}
+
+#align{
+    font: small-caption;
+    font-size: 25px;
+    text-align: right;
+    color: darkred;
+    border: 3px solid hotpink;
+}
+
+ul > li {
+    font-style: italic;
+    list-style: square;
+    color: lawngreen;
+    border: 2px solid gold;
+    font-size: 30px;
+}
+ol>li{
+    font-style: oblique;
+    color: darkorange;
+    font-size: 30px;
+}
+
+

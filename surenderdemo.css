@@ -1,0 +1,30 @@
+.parent1-flex{
+    background-color: gray;
+    border: 2px solid red;
+}
+
+.child1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid green;
+    background-color: hotpink;
+    margin: 20px;
+    padding: 30px;
+    height: fit-content;
+}
+h1{
+    margin: 30px;
+}
+h5{
+    margin: 30px;
+}
+hr{
+    margin: 30px;
+}
+.image2{
+    margin: 30px;
+}
+.parent2{
+    display: flex;
+}
